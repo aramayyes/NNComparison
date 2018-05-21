@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NNComparison</string>
+    <string name="predict_btn_text">Predict</string>
+    <string name="clear_btn_text">Clear</string>
+    <string name="acc_textview_text">Accuracy:</string>
+    <string name="ans_textview_text">Answer:</string>
+</resources>

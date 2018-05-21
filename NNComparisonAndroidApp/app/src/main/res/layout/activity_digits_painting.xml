@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.ayyes.nncomparison.DigitsPaintingActivity">
+
+    <com.williamww.silkysignature.views.SignaturePad xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signaturePad"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/darker_gray"
+
+        app:clearOnDoubleClick="true"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:penColor="@android:color/black"
+        app:penMinWidth="28dp"
+
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/accTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="10dp"
+        android:text="@string/acc_textview_text"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signaturePad" />
+
+    <TextView
+        android:id="@+id/ansTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="10dp"
+        android:text="@string/ans_textview_text"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accTextView" />
+
+    <TextView
+        android:id="@+id/accValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintStart_toEndOf="@+id/accTextView"
+        app:layout_constraintTop_toTopOf="@+id/accTextView"
+        tools:text="84%" />
+
+    <TextView
+        android:id="@+id/ansValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="20dp"
+        android:textColor="@android:color/black"
+
+        app:layout_constraintStart_toEndOf="@+id/accTextView"
+        app:layout_constraintTop_toTopOf="@+id/ansTextView"
+        tools:text="5" />
+
+    <Button
+        android:id="@+id/predictBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:enabled="false"
+
+        android:text="@string/predict_btn_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:text="@string/clear_btn_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+
+</android.support.constraint.ConstraintLayout>
