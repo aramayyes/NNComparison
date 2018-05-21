@@ -1,0 +1,1 @@
+from mnist.mnistdata_manager import MnistdataManager

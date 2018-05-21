@@ -159,3 +159,6 @@ ENV/
 # PyCharm
 .idea/
 
+# Mnist
+*.csv
+
