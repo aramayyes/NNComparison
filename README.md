@@ -26,6 +26,9 @@ There are three projects in this repository.
 
 In order to test one of the neural networks, run the corresponding server application first, update the `serverUrl` in [`DigitsPaintingActivity.kt`](/NNComparisonAndroidApp/app/src/main/java/info/ayyes/nncomparison/DigitsPaintingActivity.kt) and then run the android application.
 
+
+In the image below, the first neural network is on the left side, and the second neural network is on the right side.
+
 <p align="center">
   <img width="80%" alt="Networks comparison" src="https://www.dropbox.com/s/rztjzx55ns4pt55/NNComparison.gif?raw=1">
 </p>
