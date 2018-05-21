@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.util.Base64
 import android.widget.TextView
 import com.williamww.silkysignature.views.SignaturePad
-//import kotlinx.android.synthetic.main.activity_main.*
 import java.io.ByteArrayOutputStream
 
 import io.socket.client.IO
@@ -16,6 +15,7 @@ import java.net.URISyntaxException
 
 class DigitsPaintingActivity : AppCompatActivity() {
 
+    private val serverUrl = "http://f853f411.ngrok.io"
     private var socket: Socket? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -68,7 +68,7 @@ class DigitsPaintingActivity : AppCompatActivity() {
 
     private fun openSocket() {
         try {
-            socket = IO.socket("http://1193bee6.ngrok.io")
+            socket = IO.socket(serverUrl)
         } catch (e: URISyntaxException) {
             print("=========Error")
             e.printStackTrace()
