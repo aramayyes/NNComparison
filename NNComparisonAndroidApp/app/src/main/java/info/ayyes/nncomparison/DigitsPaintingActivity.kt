@@ -15,7 +15,7 @@ import java.net.URISyntaxException
 
 class DigitsPaintingActivity : AppCompatActivity() {
 
-    private val serverUrl = "http://f853f411.ngrok.io"
+    private val serverUrl = "http://8f37b757.ngrok.io"
     private var socket: Socket? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {

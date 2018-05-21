@@ -161,4 +161,4 @@ ENV/
 
 # Mnist
 *.csv
-
+*.gz
