@@ -4,9 +4,9 @@ Two neural networks, one with a single hidden layer (first) and the other with c
 
 #### Code
 
-- The first neural network is taken from the ["Make Your Own Neural Network"](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G) book. Thanks to the author: Tariq Rashid. Code for that book is available here https://github.com/makeyourownneuralnetwork/makeyourownneuralnetwork.
+- The first neural network is taken from the ["Make Your Own Neural Network"](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G) book. Thanks to Tariq Rashid. Code for that book is available here https://github.com/makeyourownneuralnetwork/makeyourownneuralnetwork.
 
-- The second neural network is taken from this video tutorial: https://www.youtube.com/watch?v=cPS67_Ww91E&t=1769s. Thanks to the author: Dmitry Korobchenko. Code is available here: https://drive.google.com/file/d/0BzviurZGjZkiQk5Kc0FHY0pPdzA/view. 
+- The second neural network is taken from this video tutorial: https://www.youtube.com/watch?v=cPS67_Ww91E&t=1769s. Thanks to Dmitry Korobchenko. Code is available here: https://drive.google.com/file/d/0BzviurZGjZkiQk5Kc0FHY0pPdzA/view. 
 
 #### Neural Networks
 
