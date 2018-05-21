@@ -28,4 +28,4 @@ In order to test one of the neural networks, run the corresponding server applic
 
 <p align="center">
   <img width="80%" alt="Networks comparison" src="https://www.dropbox.com/s/rztjzx55ns4pt55/NNComparison.gif?raw=1">
-</p># NNComparison
+</p>
